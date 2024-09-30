@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: newnamespace-sept30-database-config
+data:
+  VECTORDB_HOST: "newnamespace-sept30-database"
+  VECTORDB_PORT: ""
